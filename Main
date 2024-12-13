@@ -1,1 +1,15 @@
+          package Facturita;
 
+import java.text.DecimalFormat;
+import java.time.LocalDate;
+import java.util.Scanner;
+
+/*
+ * Facilito no sierto
+ *  @Autores: Sebastian, Emilio, Jostin, Gyna, Steven, Yahir...
+ */
+public class Main {
+    private static float IVA = 0.15f;
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
